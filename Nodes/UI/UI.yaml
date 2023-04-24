@@ -88,6 +88,15 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=572c7260-ed08-d278-2ab3-4917ce6a38f1}"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Label1"}
+      Value: 200.0
 - File: Screens/Screens.yaml
